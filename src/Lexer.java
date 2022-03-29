@@ -8,7 +8,6 @@ public class Lexer {
     public static final int  LP = 4;
     public static final int  RP = 5;
     public static final int  NUM_OR_ID = 6;
-
     private int lookAhead = -1;
     public String yytext = "";
     public int yyleng = 0;
